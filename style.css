@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.cont {
+  width: 1080px;
+  margin: auto;
+}
+
+.nav1 {
+  background-color: #174a63;
+  height: 60px;
+}
+
+.nav1::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cont::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav-left::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav-right::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav2 {
+  background-color: #f5f8fa;
+  height: 70px;
+  position: sticky;
+}
+
+.nav-left {
+  float: left;
+}
+
+.nav-right {
+  float: right;
+}
+
+.nav-items {
+  line-height: 60px;
+  float: left;
+}
+
+.nav-items > span, .nav-right > * {
+  font-family: 'Gothic A1', sans-serif;
+  color: white;
+}
+
+.logo-mini {
+  height: 60px;
+  float: left;
+}
+
+.logo-mini > img {
+  height: 30px;
+  margin-left: 30px;
+  margin-top: 14px;
+}
+
+.nav1 > .nav-right {
+  height: 60px;
+  width: 20%;
+  line-height: 60px;
+}
+
+.prop {
+  height: 70px;
+  line-height: 70px;
+  font-family: 'Gothic A1', sans-serif;
+  color: #7c98b6;
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.bord {
+  border-right: 2px solid #cbd6e2;
+  padding-right: 10px;
+}
+
+.nav-left > a {
+  font-family: 'Gothic A1', sans-serif;
+  color: white;
+  background-color: #ff7a59;
+  padding: 10px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-left > a:hover {
+  cursor: pointer;
+}
+
+.pdr {
+  padding-right: 20px;
+}
+
+.pdl {
+  padding-left: 20px;
+}
