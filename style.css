@@ -14,25 +14,7 @@
   height: 60px;
 }
 
-.nav1::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.cont::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.nav-left::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.nav-right::after {
+.overflow:after {
   content: "";
   display: table;
   clear: both;
@@ -42,7 +24,14 @@
   background-color: #f5f8fa;
   height: 70px;
   position: sticky;
+  top: 0;
 }
+
+.nav3 {
+  background-color: white;
+  height: 70px;
+}
+
 
 .nav-left {
   float: left;
@@ -57,7 +46,7 @@
   float: left;
 }
 
-.nav-items > span, .nav-right > * {
+.clrw {
   font-family: 'Gothic A1', sans-serif;
   color: white;
 }
@@ -83,7 +72,7 @@
   height: 70px;
   line-height: 70px;
   font-family: 'Gothic A1', sans-serif;
-  color: #7c98b6;
+  color: #33475b;
   font-size: 12px;
   font-weight: bolder;
 }
@@ -105,6 +94,7 @@
 
 .nav-left > a:hover {
   cursor: pointer;
+  background-color: #ff8f73;
 }
 
 .pdr {
@@ -113,4 +103,65 @@
 
 .pdl {
   padding-left: 20px;
+}
+
+#nav-link {
+  font-size: 15px;
+}
+
+.nav-left > img {
+  margin-top: 16px;
+}
+
+.row1 {
+  background-color: #00a4bd;
+}
+
+.banner {
+  max-width: 430px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.banner > h1 {
+  font-size: 3.4375rem;
+  line-height: 1.1818;
+  font-weight: 700;
+  color: white;
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.banner > p {
+  font-family: 'Gothic A1', sans-serif;
+  line-height: 1.6;
+  color: white;
+  padding-top: 20px;
+}
+
+.banner2 {
+  height: 132px;
+  margin-top: 20px;
+}
+
+.banner2 > a {
+  color: #33475b;
+  background-color: white;
+  padding: 28px;
+  border-radius: 3px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.banner2 > a:hover {
+  cursor: pointer;
+  background-color: rgba(255,255,255,0.9);
+}
+
+.banner2 > p {
+  font-family: 'Gothic A1', sans-serif;
+  color: white;
+  margin-top: 20px;
+  font-size: 10px;
+  line-height: 1.6;
 }
