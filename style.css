@@ -111,6 +111,14 @@
   background-color: #ff8f73;
 }
 
+.pdd {
+  padding: 26px;
+}
+
+hr {
+  border-color: #e0e6ed;
+}
+
 .pdr {
   padding-right: 20px;
 }
@@ -242,6 +250,20 @@
   float: left;
   width: 60%;
   text-align: left;
+}
+
+.row-right > h5.row-style2 {
+  position: relative;
+}
+
+.row-right > h5.row-style2::after {
+  content: '';
+  position: absolute;
+  height: 5px;
+  margin-left: 10px;
+  border-bottom: 2px solid #e0e6ed;
+  top: 17px;
+  width: 65%;
 }
 
 .img-row {
